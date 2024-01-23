@@ -4,6 +4,10 @@ Just an example of a library using React published to npm.
 
 See [BOOTSTRAP.md](https://github.com/garygause/react-library-example/blob/main/BOOTSTRAP.md) for the full process taken to setup this project.
 
+## Stack
+
+React, vite, yarn.
+
 ## Publishing
 
 yarn publish does not seem to work (OTP through security key is always invalid) so we use npm to publish.
