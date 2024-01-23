@@ -163,6 +163,13 @@ yarn dev
 
 14. Make sure all your code is pushed to git before publishing.
 
+15. Create a build.
+
+```
+npm test
+npm run build
+```
+
 ## Issues Encountered
 
 1. Got the dreaded "React is not defined error" on running tests. Forgot to include the import below in vitest.config.js

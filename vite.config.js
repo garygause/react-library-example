@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   build: {
     lib: {
-      entry: path.resolve('src', 'src/components/index.jsx'),
+      entry: path.resolve('src', 'components/index.jsx'),
       name: 'react-library-example',
       fileName: (format) => `react-library-example.${format}.js`,
     },
