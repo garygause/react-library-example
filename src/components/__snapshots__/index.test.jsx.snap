@@ -1,0 +1,17 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Hello component >  prop working 1`] = `
+<div>
+  Hello, 
+  Friend
+  !
+</div>
+`;
+
+exports[`Hello component > Hello component renders correctly 1`] = `
+<div>
+  Hello, 
+  World
+  !
+</div>
+`;
