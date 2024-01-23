@@ -182,7 +182,13 @@ yarn login
 yarn publish
 ```
 
-Will need to login to npm, visit security key url, paste one time password from url into terminal.
+Will need to login to npm, visit security key url, paste one time password from url into terminal, but I still get an error publishing through yarn. Npm works though.
+
+```
+yarn logout
+npm login
+npm publish
+```
 
 ## Issues Encountered
 
