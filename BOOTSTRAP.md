@@ -22,7 +22,7 @@ git push -u origin main
 
 3. Add to configuration.
 
-Add author, description, license, git repo, etc.
+Add author, description, license, git repo, etc. Set private to false.
 
 ```
 npm init
@@ -176,6 +176,14 @@ npm run build
 yarn login
 ```
 
+17. Publish to npm
+
+```
+yarn publish
+```
+
+Will need to login to npm, visit security key url, paste one time password from url into terminal.
+
 ## Issues Encountered
 
 1. Got the dreaded "React is not defined error" on running tests. Forgot to include the import below in vitest.config.js
@@ -183,3 +191,9 @@ yarn login
 ```
 import react from '@vitejs/plugin-react';
 ```
+
+2. Package.json had private: true, had to change to false.
+
+3. Had to recover password for npm, setup 2fa, setup security key and use OTP to publish.
+
+4. yarn publish would return wrong otp code. Used npm publish and got error that cannot publish to that package. It is because react-library-example is already taken, of course.
